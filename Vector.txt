@@ -1,0 +1,2 @@
+Lon(°E) Lat(°N) Evel(mm/yr) Nvel(mm/yr) Eerr Nerr corr Plate(Reference) Model Site
+130.000000  20.000000  -53.55   34.54 0 0 0 PH(EU) NUVEL 1A Ex1
