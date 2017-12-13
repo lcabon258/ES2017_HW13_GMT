@@ -12,7 +12,7 @@ gmt psxy ${ri} -R -J -O -K -W1p,blue,solid >> ${ps}
 # Name of plates
 gmt pstext -R -J -O -K -F+f12p,Helvetica-Bold,black  << EOF >> ${ps}
 122 31 Eurasia Plate
-135 17 Phillipine Sea Plate
+135 17 Philippine Sea Plate
 EOF
 echo "Plot Legend Box"
 # Legend box
