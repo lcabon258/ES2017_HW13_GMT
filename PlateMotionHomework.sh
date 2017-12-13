@@ -3,9 +3,10 @@ save=PlateMotion1.ps
 StudentID=r05224123
 Model="NUVEL 1A"
 echo "Plot Vectors"
+
 # Velocity Legend
 cp ${ps} ${save}
-gmt psvelo -R -J -O -K -Se0.5p/0.95/0p -W1p,black,solid -A+e+gblack -P  << EOF >> ${save}
+gmt psvelo -R118/150/0/41.6 -JM15c -O -K -Se0.5p/0.95/0p -W1p,black,solid -A+e+gblack -P  << EOF >> ${save}
 140 2 40 0 0 0 0 Legend
 EOF
 gmt pstext -R -J -O -K -F+f12p,Helvetica,black+jLM  << EOF >> ${save}
