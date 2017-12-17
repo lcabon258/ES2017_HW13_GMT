@@ -1,7 +1,7 @@
 # Earth Structure 2017 HW13 - GMT Tutorial for Plate Motion
 
 ## 目的：教同學如何使用 GMT 完成板塊運動地圖。
-
+影片教學可以參考 [>這邊<](https://youtu.be/Q5tekS73iSA)
 ***
 
 板塊運動模型計算機：  
