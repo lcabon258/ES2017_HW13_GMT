@@ -24,7 +24,7 @@ Lon(°E) Lat(°N) Evel(mm/yr) Nvel(mm/yr) Eerr Nerr corr Plate(Reference) Model 
 EOF
 echo "Plot Author"
 gmt pstext -R -J -O -K -F+f12p,Helvetica,black+jLM  << EOF >> ${save}
-140 6 Student ID \: ${r05224123}
+140 6 Student ID \: ${StudentID}
 EOF
 
 gmt psxy -R -J -O -T -UBL/0/0/"${StudentID}@@ntu.edu.tw" >> ${save}
